@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary (White) */
+  --primary: hsl(0, 0%, 100%);
+  --primary-dark: hsl(0, 0%, 90%);
+
+  /* Secondary (Black) */
+  --secondary: hsl(0, 0%, 0%);
+  --secondary-light: hsl(0, 0%, 10%);
+
+  /* Accent (Orange tone) */
+  --accent: hsl(25, 100%, 44%);
+  --accent-dark: hsl(25, 100%, 40%);
+  --accent-light: hsl(25, 100%, 52%);
+
+  /* Typography */
+  --font-sans: 'Poppins', sans-serif;
+}

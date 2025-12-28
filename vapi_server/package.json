@@ -1,0 +1,26 @@
+{
+  "name": "adora-wa-voice-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.8.0",
+    "libphonenumber-js": "^1.12.22",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.11.0",
+    "pino-http": "^10.5.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
